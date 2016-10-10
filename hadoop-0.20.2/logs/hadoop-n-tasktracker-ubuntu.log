@@ -1,0 +1,19 @@
+2016-10-10 14:05:24,795 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = ubuntu/127.0.1.1
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.20 -r 911707; compiled by 'chrisdo' on Fri Feb 19 08:07:34 UTC 2010
+************************************************************/
+2016-10-10 14:05:25,129 ERROR org.apache.hadoop.mapred.TaskTracker: Can not start task tracker because java.lang.RuntimeException: Not a host:port pair: local
+	at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:136)
+	at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:123)
+	at org.apache.hadoop.mapred.JobTracker.getAddress(JobTracker.java:1807)
+	at org.apache.hadoop.mapred.TaskTracker.<init>(TaskTracker.java:905)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:2833)
+
+2016-10-10 14:05:25,129 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at ubuntu/127.0.1.1
+************************************************************/

@@ -1,0 +1,53 @@
+2016-10-10 14:03:53,536 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = ubuntu/127.0.1.1
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.20 -r 911707; compiled by 'chrisdo' on Fri Feb 19 08:07:34 UTC 2010
+************************************************************/
+2016-10-10 14:03:53,893 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=NameNode, port=9000
+2016-10-10 14:03:53,964 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: localhost/127.0.0.1:9000
+2016-10-10 14:03:53,966 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2016-10-10 14:03:53,984 INFO org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2016-10-10 14:03:54,381 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=n,n,adm,cdrom,sudo,dip,plugdev,lpadmin,sambashare
+2016-10-10 14:03:54,381 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-10-10 14:03:54,381 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-10-10 14:03:54,388 INFO org.apache.hadoop.hdfs.server.namenode.metrics.FSNamesystemMetrics: Initializing FSNamesystemMetrics using context object:org.apache.hadoop.metrics.spi.NullContext
+2016-10-10 14:03:54,391 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStatusMBean
+2016-10-10 14:03:54,506 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 1
+2016-10-10 14:03:54,511 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-10-10 14:03:54,511 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 91 loaded in 0 seconds.
+2016-10-10 14:03:54,512 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-n/dfs/name/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-10-10 14:03:54,518 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 91 saved in 0 seconds.
+2016-10-10 14:03:55,282 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 1240 msecs
+2016-10-10 14:03:55,284 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 0
+2016-10-10 14:03:55,284 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2016-10-10 14:03:55,284 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 0
+2016-10-10 14:03:55,284 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2016-10-10 14:03:55,284 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 1 secs.
+2016-10-10 14:03:55,284 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 0 racks and 0 datanodes
+2016-10-10 14:03:55,284 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks
+2016-10-10 14:03:55,588 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2016-10-10 14:03:55,677 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50070
+2016-10-10 14:03:55,696 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50070 webServer.getConnectors()[0].getLocalPort() returned 50070
+2016-10-10 14:03:55,696 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50070
+2016-10-10 14:03:55,697 INFO org.mortbay.log: jetty-6.1.14
+2016-10-10 14:03:57,462 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50070
+2016-10-10 14:03:57,463 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Web-server up at: 0.0.0.0:50070
+2016-10-10 14:03:57,463 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2016-10-10 14:03:57,491 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9000: starting
+2016-10-10 14:03:57,492 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9000: starting
+2016-10-10 14:03:57,492 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9000: starting
+2016-10-10 14:03:57,493 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9000: starting
+2016-10-10 14:03:57,493 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9000: starting
+2016-10-10 14:03:57,509 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9000: starting
+2016-10-10 14:03:57,509 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9000: starting
+2016-10-10 14:03:57,509 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9000: starting
+2016-10-10 14:03:57,509 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9000: starting
+2016-10-10 14:03:57,509 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9000: starting
+2016-10-10 14:03:57,529 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9000: starting
+2016-10-10 14:10:22,535 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 127.0.0.1
+2016-10-10 14:10:22,536 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-10-10 14:10:23,189 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 127.0.0.1
+2016-10-10 14:10:23,190 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 3 

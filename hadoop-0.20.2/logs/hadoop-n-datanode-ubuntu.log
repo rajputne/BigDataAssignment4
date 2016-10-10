@@ -1,0 +1,22 @@
+2016-10-10 14:05:16,520 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = ubuntu/127.0.1.1
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.20 -r 911707; compiled by 'chrisdo' on Fri Feb 19 08:07:34 UTC 2010
+************************************************************/
+2016-10-10 14:05:17,142 ERROR org.apache.hadoop.hdfs.server.datanode.DataNode: java.io.IOException: Incompatible namespaceIDs in /tmp/hadoop-n/dfs/data: namenode namespaceID = 1828709229; datanode namespaceID = 391690623
+	at org.apache.hadoop.hdfs.server.datanode.DataStorage.doTransition(DataStorage.java:233)
+	at org.apache.hadoop.hdfs.server.datanode.DataStorage.recoverTransitionRead(DataStorage.java:148)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.startDataNode(DataNode.java:298)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.<init>(DataNode.java:216)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.makeInstance(DataNode.java:1283)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.instantiateDataNode(DataNode.java:1238)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.createDataNode(DataNode.java:1246)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.main(DataNode.java:1368)
+
+2016-10-10 14:05:17,151 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at ubuntu/127.0.1.1
+************************************************************/

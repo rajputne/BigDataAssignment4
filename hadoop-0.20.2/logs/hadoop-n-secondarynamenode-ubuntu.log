@@ -1,0 +1,30 @@
+2016-10-10 14:05:19,599 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting SecondaryNameNode
+STARTUP_MSG:   host = ubuntu/127.0.1.1
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.20 -r 911707; compiled by 'chrisdo' on Fri Feb 19 08:07:34 UTC 2010
+************************************************************/
+2016-10-10 14:05:19,780 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=SecondaryNameNode, sessionId=null
+2016-10-10 14:05:21,192 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2016-10-10 14:05:21,381 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50090
+2016-10-10 14:05:21,385 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50090 webServer.getConnectors()[0].getLocalPort() returned 50090
+2016-10-10 14:05:21,386 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50090
+2016-10-10 14:05:21,386 INFO org.mortbay.log: jetty-6.1.14
+2016-10-10 14:05:22,488 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50090
+2016-10-10 14:05:22,488 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Secondary Web-server up at: 0.0.0.0:50090
+2016-10-10 14:05:22,488 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint Period   :3600 secs (60 min)
+2016-10-10 14:05:22,488 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Log Size Trigger    :67108864 bytes (65536 KB)
+2016-10-10 14:10:22,834 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 91 bytes.
+2016-10-10 14:10:22,837 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-10-10 14:10:22,906 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=n,n,adm,cdrom,sudo,dip,plugdev,lpadmin,sambashare
+2016-10-10 14:10:22,906 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-10-10 14:10:22,906 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-10-10 14:10:22,950 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 1
+2016-10-10 14:10:22,951 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-10-10 14:10:22,951 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-n/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-10-10 14:10:22,977 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 91 saved in 0 seconds.
+2016-10-10 14:10:23,084 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-10-10 14:10:23,112 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=127.0.1.1&token=-18:1828709229:0:1476133822000:1476133435141
+2016-10-10 14:10:23,281 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 91
